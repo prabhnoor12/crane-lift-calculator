@@ -3,8 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RigCheck Pro™ | Mobile Crane & Boom Lift Sizing Calculator</title>
-  <meta name="description" content="Free engineering pre-planning calculator for general contractors, HVAC installers, and riggers. Calculate required crane tonnage, boom length, ground bearing pressure, and rental budget.">
+  <title>Crane Sizing & Radius Calculator | Mobile Crane Capacity & Rental Estimator</title>
+  <meta name="description" content="Free mobile crane sizing calculator for general contractors, HVAC installers, and riggers. Calculate required crane tonnage, boom length, outrigger mat sizing, and commercial rental costs under ASME B30.5 standards.">
+  <meta name="keywords" content="crane size calculator, mobile crane capacity calculator, crane radius calculator, crane rental cost, outrigger mat calculator, hvac crane lift">
+  <link rel="canonical" href="https://prabhnoor12.github.io/crane-lift-calculator/">
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:title" content="Crane Sizing & Radius Calculator | RigCheck Pro">
+  <meta property="og:description" content="Free engineering calculator for mobile crane tonnage, boom clearance, and outrigger ground bearing pressure.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://prabhnoor12.github.io/crane-lift-calculator/">
+
+  <!-- Google Structured Data: WebApplication Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "RigCheck Pro Mobile Crane Sizing Calculator",
+    "url": "https://prabhnoor12.github.io/crane-lift-calculator/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "All",
+    "browserRequirements": "Requires JavaScript. Requires HTML5.",
+    "description": "Calculates mobile crane tonnage, boom length, operating angle, outrigger cribbing size, and rental budgets according to ASME B30.5 standards.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
+  <!-- Google Structured Data: FAQPage Schema (For Rich Snippets on Google SERP) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why can't a 30-ton crane lift 3 tons at a 60-foot radius?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A crane's manufacturer nameplate rating is calculated at minimum radius (usually 8 to 10 feet from the centerpin). As the boom extends horizontally to reach a 60-foot setback, leverage creates massive overturning moment. At a 60-foot radius, a 50-ton hydraulic crane often has a safe chart capacity of only 6,000 to 9,000 lbs. Attempting to pick 6,000 lbs with a 30-ton crane at 60 ft will trigger the crane's Load Moment Indicator (LMI) lock-out or risk structural failure."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What outrigger mats are required by OSHA for mobile cranes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Under OSHA 29 CFR 1926.1402, the controlling entity must ensure ground conditions are adequate to support the crane. Because up to 80% of the total crane weight plus suspended load transfers onto a single corner outrigger during a swing, operators must place heavy hardwood timber cribbing mats or engineered synthetic mats under each outrigger float to distribute the force over a wide enough square footage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What permits are required for crane placement on a public street?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If any part of the crane chassis, outriggers, or counterweight swing radius encroaches on a public road or sidewalk, you must obtain a Municipal Right-of-Way / Street Obstruction Permit. Many cities require a certified Traffic Control Plan (TCP), certified flaggers, or off-duty police details with a 3 to 14 business day lead time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When does a lift become an ASME B30.5 critical lift?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Under ASME B30.5 standards, a lift is classified as a Critical Lift when the load exceeds 75% to 85% of rated capacity on the load chart, requires tandem (multi-crane) picks, hoists hazardous materials, or hoists over occupied structures. Critical lifts mandate a formal written lift plan, rigging calculation sheets, and an on-site Lift Director."
+        }
+      }
+    ]
+  }
+  </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
